@@ -1,0 +1,108 @@
+/**
+* slider.css
+**/
+
+#featureitem {
+	background-color: #333333;
+	position: relative;
+}
+
+#featureitem ul {
+
+	bottom: 20px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	list-style: none;
+	width: 875px;
+}
+
+#featureitem li {
+	border-right: 1px solid #ccc;
+	float: left;
+	display: block;
+	/* background-color: #000; */
+	/*margin-right: 20px;*/
+	padding: 6px;
+	width: 115px;
+	height: 85px;
+}
+
+#featureitem li a {
+	top: 15px;
+	position: relative;
+	text-decoration: none;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	font: 14px arial, helvetica, sans-serif;
+	opacity: 0.7;
+	width: 85px;
+	height: 85px;
+}
+
+#featureitem .pic, #featureitem .description, #featureitem .links {
+	display: block;
+}
+
+.contentblock {
+	width: 955px;
+	clear: both;
+	height: 303px;
+}
+
+.contentblock h2 {
+	margin: 10px 0px 0px 10px;
+}
+
+.pic {
+	width: 456px;
+	height: 304px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+.links {
+
+	padding-top: 40px;
+	float: left;
+	width: 150px;
+}
+
+.links li {
+	clear: both;
+	border: none !important;
+	height: auto !important;
+}
+
+.links li a {
+	color: #ffffff !important;
+}
+
+.links strong{
+	color: #ed712b !important;
+}
+
+.description {
+	float: left;
+	border-left: 1px solid #cccccc;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+}
+
+.links h4 {
+	margin: 1em 1em 0px 0px;
+}
+
+#tabnav li {
+	text-align: center;
+}
+
+#tabnav li.ui-tabs-selected {
+    background: url('../img/comp_images/select_corner.png') center -15px no-repeat;
+    opacity:1 !important;
+}
+
+.ui-tabs-hide {
+    display:none;   
+}

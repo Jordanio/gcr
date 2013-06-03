@@ -1,0 +1,730 @@
+#pull {
+    display:none;
+}
+
+#pull .dropdownnav {
+        display:none !important;
+}
+
+
+@media (max-width: 450px) {
+
+    #social {
+        width:450px;
+        position:relative;
+        display:none;
+    }
+    
+     #pull {
+        width:450px;
+        height:60px;
+        padding:5px;
+    }
+    
+    #nav-topical {
+        display:none;
+    }
+    
+    #nav-topical li:hover .dropdownnav {
+        display:none !important;
+    }
+    
+    .dropdownnav {
+        display:none !important;
+    }
+        
+    #container {
+        width:450px;
+        margin:0px;
+        overflow:hidden;
+        
+    }
+    
+    header {
+        margin:33px 0px 0px 0px;
+        width:450px;
+        height:70px;
+        text-align:center;
+    }
+    
+    header h1, footer h2 {
+          background:none;
+    }
+    
+    header h1 a, footer h2 a {
+        
+        font:normal 24px 'Franklin Gothic Demi Ext Cmp', helvetica, sans-serif;
+        
+    }
+    
+    
+    
+    .sitetitle {
+        
+        font:normal 24px 'Franklin Gothic Demi Ext Cmp', helvetica, sans-serif;
+    
+    }
+    
+    #social {
+        position:relative;
+        margin:2px auto 2px auto;
+        width:140px;
+        height:35px;
+    }
+    
+    #badge {
+        display:none;
+        
+    }
+    
+    #slides {
+        width:450px;
+    }
+    
+   
+    
+    nav {   
+        position:fixed;
+        left:0px;
+        top:0px;
+        height: 33px;
+        width:100%;  
+    } 
+     
+    nav ul {  
+        width: 450px;  
+        display: block;  
+        height: auto;  
+    }
+      
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+        background:#ffffff;
+    }
+        
+    nav a#pull {  
+        display: block;  
+        background-color: #eeeeee;  
+        width: 100%;  
+        height:33px;
+        position: relative;
+        
+    }  
+    
+    nav a#pull:after {  
+        content:"";  
+        background: url('/_assets/img/nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        right: 15px;  
+        top: 10px;
+       
+    }  
+    
+    #welcomestrip {
+        width:450px;
+    }
+    
+    #welcomeinfo {
+        width:450px;
+        padding:3px;
+    }
+    
+    #welcomeinfo h2 {
+        font-size:24px;
+    }
+    
+    #welcomeinfo p {
+        font-size:12px;
+        width:445px;
+    }
+    
+    #newscontainer {
+        width:450px;
+    }
+    
+    #sidebar {
+        float:none;
+        width:450px;
+        
+    }
+    
+    #sideads {
+        float:none;
+        width:450px;
+        height:auto;
+        margin:10px 0px 20px 0px;
+    }
+    
+    .sideaditem {
+        float:left;
+        width:220px;
+        margin:10px 5px 20px 0px;
+    }
+    
+    .newsitem {
+        text-align:center;
+        width:450px;
+        float:none;
+        height:auto;
+        padding:5px;
+    }
+    
+    #banner {
+        width:450px;
+        overflow:hidden;
+    }
+    
+    #bannercontainer {
+        width:450px;
+    }
+    
+    
+    
+    #bannercontainer, #pagebannercontainer {
+
+        width:450px;
+        
+    }
+
+
+    #caboose {
+        width:450px;
+    }
+    
+    #caboosecontainer {
+        width:450px;
+    }
+    
+    footer {
+        
+        width:450px;    
+    }   
+    
+    #footercontent {
+        width:450px;
+        
+    } 
+    
+    .footercloumn {
+        width:450px;
+    }
+    
+    .narrowcontent {
+        width:450px;
+    }
+    
+    #footerseal {
+        width:450px;
+    }
+}
+
+
+@media (min-width: 451px) and (max-width: 550px) {
+
+    #social {
+        width:540px;
+        position:relative;
+        display:none;
+    }
+        
+    #pull {
+        width:540px;
+        height:60px;
+        padding:5px;
+    }
+    
+    #nav-topical {
+        display:none;
+    }
+    
+    #nav-topical li:hover .dropdownnav {
+        display:none !important;
+    }
+    
+    .dropdownnav {
+        display:none !important;
+    }
+        
+    #container {
+        width:540px;
+        margin:0px;
+        overflow:hidden;
+        
+    }
+    
+    header {
+        margin:33px 0px 0px 0px;
+        width:540px;
+        height:70px;
+        text-align:center;
+    }
+    
+    header h1, footer h2 {
+          background:none;
+    }
+    
+    header h1 a, footer h2 a {
+        
+        font:normal 24px 'Franklin Gothic Demi Ext Cmp', helvetica, sans-serif;
+        
+    }
+    
+    
+    
+    .sitetitle {
+        
+        font:normal 24px 'Franklin Gothic Demi Ext Cmp', helvetica, sans-serif;
+    
+    }
+    
+    #social {
+        position:relative;
+        margin:2px auto 2px auto;
+        width:140px;
+        height:35px;
+    }
+    
+    #badge {
+        display:none;
+        
+    }
+    
+    #slides {
+        width:450px;
+    }
+    
+   
+    
+    nav {   
+        position:fixed;
+        left:0px;
+        top:0px;
+        height: 33px;
+        width:100%;  
+    } 
+     
+    nav ul {  
+        width: 540px;  
+        display: block;  
+        height: auto;  
+    }
+      
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+        background:#ffffff;
+    }
+        
+    nav a#pull {  
+        display: block;  
+        background-color: #eeeeee;  
+        width: 100%;  
+        height:33px;
+        position: relative;
+        
+    }  
+    
+    nav a#pull:after {  
+        content:"";  
+        background: url('/_assets/img/nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        right: 15px;  
+        top: 10px;
+       
+    }  
+    
+    #welcomestrip {
+        width:540px;
+        padding:5px;
+    }
+    
+    #welcomeinfo {
+        width:530px;
+        padding:10px;
+    }
+    
+    #welcomeinfo h2 {
+        font-size:24px;
+    }
+    
+    #welcomeinfo p {
+        font-size:12px;
+        width:530px;
+        padding:10px;
+    }
+    
+    #newscontainer {
+        width:530px;
+        padding:5px;
+    }
+    
+    #sidebar {
+        float:none;
+        width:540px;
+        padding:5px;
+    }
+    
+    #sideads {
+        float:none;
+        width:540px;
+        padding:5px;
+        height:auto;
+        margin:10px 0px 20px 0px;
+    }
+    
+    .sideaditem {
+        float:left;
+        width:540px;
+        padding:5px;
+        margin:10px 5px 20px 0px;
+    }
+    
+    .newsitem {
+        text-align:center;
+        width:540px;
+        float:none;
+        height:auto;
+        padding:5px;
+    }
+    
+    #banner {
+        width:540px;
+        overflow:hidden;
+    }
+    
+    #bannercontainer {
+        width:540px;
+    }
+    
+    
+    
+    #bannercontainer, #pagebannercontainer {
+
+        width:540px;
+        
+    }
+
+
+    #caboose {
+        width:540px;
+    }
+    
+    #caboosecontainer {
+        width:540px;
+    }
+    
+    footer {
+        
+        width:540px;    
+    }   
+    
+    #footercontent {
+        width:540px;
+        
+    } 
+    
+    .footercloumn {
+        width:540px;
+    }
+    
+    .narrowcontent {
+        width:540px;
+    }
+    
+    #footerseal {
+        width:540px;
+    }
+}
+
+
+@media  (min-width:651px) and (max-width: 800px) {
+
+    #social {
+        width:760px;
+        position:relative;
+    }
+    
+    #pull {
+        width:760px;
+        margin:0px;
+        padding:5px;
+    }
+
+    #nav-topical {
+        display:none;
+    }
+    
+    #nav-topical li:hover .dropdownnav {
+        display:none !important;
+    }
+
+    .dropdownnav {
+            display:none !important;
+     }
+        
+    #container {
+        width:760px;
+        margin:0px;
+        overflow:hidden;
+        
+    }
+    
+    header {
+        margin:33px 0px 0px 0px;
+        width:760px;
+        height:70px;
+        text-align:center;
+    }
+    
+    header h1, footer h2 {
+          background:none;
+    }
+
+    
+    header h1 a, footer h2 a {
+        
+        font:normal 24px 'Franklin Gothic Demi Ext Cmp', helvetica, sans-serif;
+        
+    }
+    
+    
+    
+    .sitetitle {
+        
+        font:normal 24px 'Franklin Gothic Demi Ext Cmp', helvetica, sans-serif;
+    
+    }
+    
+    #social {
+        position:relative;
+        margin:2px auto 2px auto;
+        width:600px;
+        height:35px;
+        display:none;
+    }
+    
+    #badge {
+        display:none;
+        
+    }
+    
+    #slides {
+        width:760px;
+    }
+   
+    
+    nav {   
+        position:fixed;
+        left:0px;
+        top:0px;
+        height: 33px;
+        width:100%;  
+    } 
+     
+    nav ul {  
+        width: 100%;  
+        display: block;  
+        height: auto;  
+    }
+      
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+        background:#ffffff;
+    }
+        
+    nav a#pull {  
+        display: block;  
+        background-color: #eeeeee;  
+        width: 100%;  
+        height:33px;
+        position: relative;
+        
+    }  
+    
+    nav a#pull:after {  
+        content:"";  
+        background: url('/_assets/img/nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        right: 15px;  
+        top: 10px;
+       
+    }  
+    
+    #welcomestrip {
+        width:760px;
+    }
+    
+    #welcomeinfo {
+        width:760px;
+        padding:3px;
+    }
+    
+    #welcomeinfo h2 {
+        font-size:24px;
+    }
+    
+    #welcomeinfo p {
+        font-size:12px;
+        width:750px;
+    }
+    
+    #newscontainer {
+        width:760px;
+    }
+    
+    #sidebar {
+        float:none;
+        width:760px;
+        
+    }
+    
+    #sideads {
+        float:none;
+        width:760px;
+        height:auto;
+        margin:10px 0px 20px 0px;
+    }
+    
+    .sideaditem {
+        float:left;
+        width:220px;
+        margin:10px 5px 20px 0px;
+    }
+    
+    .newsitem {
+        text-align:center;
+        width:760px;
+        float:none;
+        height:auto;
+        padding:5px;
+    }
+    
+    #banner {
+        width:760px;
+        overflow:hidden;
+    }
+    
+    #bannercontainer {
+        width:760px;
+    }
+    
+    
+    
+    #bannercontainer, #pagebannercontainer {
+
+        width:760px;
+        
+    }
+
+
+    #caboose {
+        width:760px;
+    }
+    
+    #caboosecontainer {
+        width:760px;
+    }
+    
+    footer {
+        
+        width:760px;    
+    }   
+    
+    #footercontent {
+        width:760px;
+        
+    } 
+        
+    .narrowcontent {
+        width:760px;
+    }
+    
+    #footerseal {
+        width:760px;
+    }
+}
+
+@media (min-width:551px) and (max-width: 650px) {
+    
+    #social {
+        width:600px;
+        position:relative;
+        display:none;
+    }
+    
+    #pull {
+        width:600px;
+    }
+
+    #nav-topical li:hover .dropdownnav {
+        display:none !important;
+    }
+
+    .dropdownnav {
+        display:none !important;
+    }
+    
+    #container {
+        width:600px;
+        
+    }
+    
+    #homeheader {
+        width:600px;
+        overflow:hidden;
+    }
+    
+    #banner {
+        width:600px;
+        overflow:hidden;
+    }
+    
+    #content {
+        width:590px;
+        margin:0px 5px 0px 0px;
+    }
+
+    
+    #maincontent {
+        width:600px;
+    }
+
+    #caboose {
+        width:600px;
+    }
+    
+    #caboosecontainer {
+        width:600px;
+    }
+    
+    footer {
+        width:600px;
+    }
+
+    #footerseal {
+        width:600px;
+    }
+}

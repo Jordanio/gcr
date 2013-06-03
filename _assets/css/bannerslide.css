@@ -1,0 +1,112 @@
+#slides {
+    height:385px;
+    width:1000px;
+    overflow:hidden;
+}
+
+.prev {
+    position:absolute;
+    right:130px;
+    bottom:0px;
+    z-index:101;
+    display:block;
+    width:30px;
+    height:15px;
+    font-size:11px;
+    color:#ffffff;
+}
+
+.next {
+    position:absolute;
+    right:5px;
+    bottom:0px;
+    z-index:101;
+    display:block;
+    width:30px;
+    height:15px;
+    overflow:hidden;
+    font-size:11px;
+    color:#ffffff;
+}
+
+a.prev, a.next {
+    color:#ffffff !important;
+}
+
+
+a.prev:hover, a.next:hover {
+    color:#ffffff !important;
+    text-decoration:none;
+    background:#000000;
+}
+
+ul.pagination {
+    display:block;
+    position:absolute;
+    list-style:none;
+    z-index:101;
+    right:40px;
+    bottom:2px;
+    height:15px;
+}
+
+.pagination li {
+    display:block;
+    margin:0px;
+    padding:0px;
+    float:left;
+    margin:1px;
+    padding:0px;
+}
+
+.pagination li a {
+    display:block;
+    margin:0px;
+    padding:1px 5px 1px 5px;
+    color:#ffffff;
+    font-size:12px;
+}
+
+
+/*
+            Slides container
+            Important:
+            Set the width of your slides container
+            Set to display none, prevents content flash
+        */
+        .slides_container {
+            width:1000px;
+            display:none;
+        }
+
+        /*
+            Each slide
+            Important:
+            Set the width of your slides
+            If height not specified height will be set by the slide content
+            Set to display block
+        */
+        .slides_container div {
+            width:1000px;
+            height:385px;
+            display:block;
+        }
+        
+        /*
+            Optional:
+            Reset list default style
+        */
+        .pagination {
+            list-style:none;
+            margin:0;
+            padding:0;
+        }
+
+        /*
+            Optional:
+            Show the current slide in the pagination
+        */
+        .pagination .current a {
+            background:#000000;
+            color:#F47321;
+        }

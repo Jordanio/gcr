@@ -1,0 +1,1140 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 13px;
+    line-height: 1.8;
+    color:#5f5f5f;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+@font-face {
+    font-family: 'Franklin Gothic Demi Ext Cmp';
+    src: url('../webfontskit/webfonts/24AAF3_13_0.eot');
+    src: url('../webfontskit/webfonts/24AAF3_13_0.eot?#iefix') format('embedded-opentype'),url('../webfontskit/webfonts/24AAF3_13_0.woff') format('woff'),url('../webfontskit/webfonts/24AAF3_13_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Extra Cond';
+    
+    src: url('../webfontskit/webfonts/24AAF3_13_0.eot');
+    src: url('../webfontskit/webfonts/24AAF3_13_0.eot?#iefix') format('embedded-opentype'),url('../webfontskit/webfonts/24AAF3_13_0.woff') format('woff'),url('../webfontskit/webfonts/24AAF3_13_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ITC Franklin Gothic Std Bk CD';
+    
+    src: url('../webfontskit/webfonts/24AAF3_11_0.eot');
+    src: url('../webfontskit/webfonts/24AAF3_11_0.eot?#iefix') format('embedded-opentype'),url('../webfontskit/webfonts/24AAF3_11_0.woff') format('woff'),url('../webfontskit/webfonts/24AAF3_11_0.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'ITC Franklin Gothic Std MD CD';
+    
+    src: url('../webfontskit/webfonts/24AAF3_7_0.eot');
+    src: url('../webfontskit/webfonts/24AAF3_7_0.eot?#iefix') format('embedded-opentype'),url('../webfontskit/webfonts/24AAF3_7_0.woff') format('woff'),url('../webfontskit/webfonts/24AAF3_7_0.ttf') format('truetype');
+
+}
+
+
+@font-face {
+    font-family: 'FranklinGothicURWExtComD-Boo';
+    src: url('../webfontskit/webfonts/24AAF3_10_0.eot');
+    src: url('../webfontskit/webfonts/24AAF3_10_0.eot?#iefix') format('embedded-opentype'),url('../webfontskit/webfonts/24AAF3_10_0.woff') format('woff'),url('../webfontskit/webfonts/24AAF3_10_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FranklinGothicURWCon-Boo';
+    src: url('../webfontskit/webfonts/24AAF3_11_0.eot');
+    src: url('../webfontskit/webfonts/24AAF3_11_0.eot?#iefix') format('embedded-opentype'),url('../webfontskit/webfonts/24AAF3_11_0.woff') format('woff'),url('../webfontskit/webfonts/24AAF3_11_0.ttf') format('truetype');
+}
+
+
+
+body {
+    margin:0px;
+    padding:0px;
+    
+}
+
+a {
+    color:#ed712b;
+    text-decoration:none;
+}
+
+a:hover {
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    color:#373737;
+}
+
+header {
+    position:relative;
+    width:946px;
+    margin:0px auto 0px auto;
+    padding:0px;
+    
+}
+
+header h1,footer h2  {
+    display:block;
+    margin:40px 0px 0px 0px;
+    padding:0px;
+    background:url(../img/pipe.png) 248px 8px no-repeat;
+}
+
+
+header h1 a, footer h2 a {
+    color:#ed712b;
+    font: 32px 'Franklin Gothic Demi Ext Cmp', helvetica, sans-serif;
+    letter-spacing:3px;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin:0px;
+    padding:0px;
+}
+
+header h1 a:hover, footer h2 a:hover {
+    
+}
+
+.sitetitle {
+    font:normal 31px 'FranklinGothicURWExtComD-Boo', helvetica, sans-serif;
+    color:#ccc4c0;
+    letter-spacing:1px;
+    padding:0px 0px 0px 25px;
+    margin:0px 0px 0px 10px;
+    text-transform:uppercase;
+   
+}
+
+nav {
+    left:0px;
+    bottom:0px;
+    margin:10px 0px 20px 0px;
+    padding:0px;
+    z-index:500;
+}
+
+nav ul {
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+nav li {
+    float:left;
+    margin:0px 10px 0px 10px;
+    padding:0px;
+}
+
+nav li a {
+    font-size:18px;
+    font-family:'ITC Franklin Gothic Std MD CD', helvetica, sans-serif;
+    color:#3f3e3d;
+    margin:0px;
+    padding:5px 0px 5px 0px;
+    text-decoration: none;
+    height:34px;
+}
+
+nav li a:hover {
+    color:#3f3e3d;
+ 
+}
+
+nav li li a {
+    margin:1px;
+    
+    font-size:14px;
+    color:#5f5f5f;
+}
+
+nav li li a:hover {
+    color:#3f3e3d;
+    border:none;
+}
+
+#banner, #pagebanner {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+#bannercontainer, #pagebannercontainer {
+    position:relative;
+    width:946px;
+    height:303px;
+    border-left:15px solid #ffffff;
+    border-right:15px solid #ffffff;
+    margin:0px auto 0px auto;
+    padding:0px;
+    text-align:left;
+    
+    /*background:url(../img/comp_images/banners/Capitol_Building950x304.jpg) #ffffff; */
+    
+}
+
+.bannertext {
+    /* position: absolute; */
+	left: 19px;
+    top: 40px;
+    width: 325px;
+    height: 264px;
+}
+
+.bannertext p, .bannertext h2 {
+    color: #ffffff;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.bannertext a {
+    display:block;
+    margin: 5px 5px 5px 0px;
+	padding: 15px 0px 0px 0px;
+    color:#eeeeee;
+    font-weight:normal;
+    text-shadow:none;
+    font:14px 'ITC Franklin Gothic Std MD CD', helvetica, arial, sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-shadow:0px 0px 1px #000000;
+    width:500px;
+    opacity:1;
+}
+
+.bannertext a:hover {
+    color:#ED712B;
+}
+
+#pagebannercontainer {
+    height: 223px;
+    overflow:hidden;
+}
+
+.sideblock h2 {
+	margin: 0px 0px 0px 10px;
+}
+
+
+
+#pull {
+	display: none;
+}
+
+ /*
+            Optional:
+            Reset list default style
+        */
+        .pagination {
+            list-style:none;
+            margin:0;
+            padding:0;
+            
+        }
+
+        /*
+            Optional:
+            Show the current slide in the pagination
+        */
+        .pagination .current a {
+            opacity:.4;
+            background:#ffffff;
+        }
+
+#rotation {
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+#badge {
+    position:absolute;
+    right:0px;
+    top:0px;
+    width:305px;
+    height:303px;
+    margin:0px;
+    padding:0px;
+    float:right;
+}
+
+#social {
+    position:absolute;
+    right:0px;
+    top:0px;
+    
+}
+
+#social a {
+    display:block;
+    float:left;
+    margin:5px;
+    border-radius: 50%;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    text-align:center;
+}
+
+#social a:hover  {
+    background-color:#999999;
+    opacity:.7;
+}
+
+h2, h3 {
+	
+    font-family:'ITC Franklin Gothic Std Bk CD', helvetica, arial, sans-serif;
+}
+
+/** 
+* mpr styles
+*/
+/* mini-grid */
+.content-1-3, .content-2-3, .content-1-2 {
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.content-1-2 {
+    width: 50%;
+}
+
+.content-1-3 {
+    width: 33.333%;
+}
+
+.content-2-3 {
+    width: 63%;
+}
+
+.textbox {
+    padding: 1.4em;
+}
+
+/* end mini grid styles */
+/* tiles */
+#tiles {
+    float: left;
+    min-width: 980px;
+}
+
+.tile-container {
+    width: 25%;
+    float: left;
+}
+
+.tile {
+    margin: 10px;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    height: 275px;
+    background-color: #EFEFEF;
+    position: relative;
+}
+
+.tile img {
+    padding: 7px;
+}
+
+.tile h2 {
+    margin: 5px;
+    border-bottom: 1px solid #333333;
+}
+
+.tile h3 {
+    margin: 2px 2px 2px 2px;
+}
+
+.tilefooter {
+    width: 94%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding: 7px;
+}
+/* end tiles */
+
+
+#leftcol {
+	float: left;
+}
+
+#rightcol {
+	float: right;	
+}
+
+.sideblock {
+	width: 245px;
+	background: #f6f6f6;
+}
+
+.sideblock ul {
+	margin-right: 10px;
+	list-style: none;
+	margin-left: -25px;
+	/* font-family: 'ITC Franklin Gothic Std MD CD', helvetica, arial, sans-serif; */
+	padding-bottom: 10px;
+}
+
+.listblock {
+    margin:20px 0px 0px 0px;
+    padding:0px;
+}
+
+.listblock ul {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+
+.listblock li {
+    list-style:none;
+    display:block;
+    margin:0px;
+    padding:40px 0px 40px 0px;
+    border-bottom:1px solid #999999;
+}
+
+.listblock h2 {
+    margin:0px 0px 3px 0px;
+    padding:0px;
+    
+}
+
+
+.listblock h2 a {
+    display:block;
+    line-height:1.2em;
+    text-decoration: none;
+    margin:0px;
+    padding:0px 0px 2px 5px;
+}
+
+.listblock h4 {
+    font:bold 10px  helvetica, arial, sans-serif;
+    display:block;
+    margin:0px;
+    padding:5px 10px 10px 5px;
+    color:#88847f;
+    text-transform:uppercase;
+}
+
+
+
+.newsimage {
+    float:left;
+    margin:0px 10px 10px 0px;
+    padding:0px;
+}
+
+.newspreview {
+    margin:0px 0px 0px 0px;
+}
+
+.newspreview a {
+    display:block;
+    margin:2px;
+    padding:3px;
+    text-decoration:none;
+}
+
+.contentsection {
+    margin:0px;
+    padding:3px;
+}
+
+.contentsection img {
+    margin:0px 10px 10px 0px;
+    padding:0px;
+}
+
+
+.widecontent {
+    margin:10px;
+    padding:5px;
+}
+
+/*
+ * 
+ * 
+ *  padding:10px 20px;
+    border-radius:50%;
+    text-indent:-9999px;
+    background:#ff9900;
+    overflow:hidden;
+ */
+
+
+#container {
+	width: 950px;
+    margin:15px auto 0px auto;
+    padding:10px 0px 0px 0px;
+}
+
+#pagecontent {
+    width:946px;
+    margin:0px auto 0px auto;
+    
+}
+
+.narrowcontent {
+    width:650px;
+    margin:0px 20px 20px 0px;
+    padding:0px 5px 5px 0px;
+    float:left;
+}
+
+#breadcrumbs {
+    width:946px;
+    margin:0px auto 0px auto;
+}
+
+.breadcrumbs {
+    font-family: 'ITC Franklin Gothic Std MD CD', helvetica, arial, sans-serif;
+    font-size:11px;
+    text-transform:uppercase;
+    color:#ada7a2;
+}
+
+.breadcrumbs a {
+    color:#ada7a2;
+    text-decoration:none;
+}
+
+
+#content {
+    
+}
+
+#content h2 {
+    color:#ed712b;
+    font-family:'ITC Franklin Gothic Std Bk CD', helvetica, arial, sans-serif;
+    font-size:24px;
+    font-weight:normal;
+    line-height:24px;
+    margin:20px 0px 0px 0px;
+    padding:0px;
+}
+
+
+#content h3 {
+    color:#3e3d3c;
+    font-family:'ITC Franklin Gothic Std Bk CD', helvetica, arial, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    
+}
+
+#welcomestrip {
+    background: url(../img/patterns/tiling_orange.jpg);
+    
+}
+
+#welcomeinfo {
+    width:946px;
+    margin:10px auto 10px auto;
+    padding:10px 0px 20px 0px;
+    font-family: 'ITC Franklin Gothic Std Bk CD', helvetica, sans-serif;
+    color:#3f3e3d;
+}
+
+#welcomeinfo h2 {
+    font-family: 'FranklinGothicURWCon-Boo', 'ITC Franklin Gothic Std Bk CD', helvetica, sans-serif;
+    color:#ffffff;
+    font-weight:normal;
+    font-size:44px;
+    margin:0px;
+    padding:0px;
+
+}
+
+#welcomeinfo h3 {
+    margin:0px;
+    padding:0px;
+    color:#efefef;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+#welcomeinfo p {
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+}
+
+#welcomeinfo a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+#welcomeinfo a:hover {
+    color:#3e3d3c;
+    text-decoration:underline;
+}
+
+#newscontainer {
+    width:946px;
+    margin:40px auto 10px auto;
+    padding:0px;
+}
+
+.newsitem {
+    float:left;
+    width:225px;
+    height:420px;
+    margin:10px 10px 10px 0px;
+    padding:0px;
+    background:#e7e5e4; 
+    border-bottom:15px solid #dc6928;
+}
+
+.newsitem h2 {
+    font-family:  'FranklinGothicURWCom-Boo', helvetica, sans-serif;
+    display:block;
+    margin:0px;
+    padding:10px 10px 0px 10px;
+    color:#3e3d3c;
+    font-size:30px;
+    line-height: 1.2em;
+}
+
+.newsitem h4 {
+    font:bold 10px  helvetica, arial, sans-serif;
+    display:block;
+    margin:0px;
+    padding:10px 10px 0px 0px;
+    color:#88847f;
+}
+
+
+.newsitem a {
+    color:#e3992e;
+    display:block;
+    text-decoration:none;
+    padding:5px;
+    border-radius:5px;
+    margin:0px 0px 0px 5px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+
+.newsitem a:hover {
+    color:#3e3d3c;
+}
+
+.newsitemcontent {
+    font:12px Helvetica, arial, sans-serif;
+    margin:0px 0px 0px 0px;
+    padding:0px 10px 0px 10px;
+    line-height:25px;
+}
+
+.newsitemcontent p {
+    margin:10px 0px 0px 0px !important;
+}
+
+
+#sideads {
+    float:left;
+    width:230px;
+    height:470px;
+    margin:10px 10px 10px 0px;
+}
+
+.sideaditem {
+    width:225px;
+    margin:0px 5px 20px 5px;
+    padding:0px;
+    text-align:center;
+    background: url(../img/patterns/tiling_dark.jpg) 0px 60px repeat-x;
+}
+
+.sideaditemimg {
+    width:196px;
+    margin:0px auto 0px auto;
+    padding:3px;
+    background:#ffffff;
+    box-shadow: 2px 2px 3px #999, -2px -2px -3px #999;
+}
+
+.sideaditem h3 {
+    display:block;
+    width:200px;
+    margin:4px 0px 0px 10px;
+    text-align:left;
+    color:#ffffff;
+    text-transform: uppercase;
+    
+}
+
+
+.sideadcontent {
+    background:url(../img/patterns/tiling_dark.jpg) left top;
+    text-align:left;
+    font:12px helvetica, arial, sans-serif;
+    line-height:1.4em;
+    padding:0px 10px 10px 10px;
+    margin:0px 5px 5px 5px 5px;
+}
+
+.sideadcontent a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.sideadcontent a:hover {
+
+    color:#3e3d3c;
+
+}
+
+#caboose {
+    margin:-10px 0px 0px 0px;
+    padding:30px 0px 20px 0px;
+       
+}
+
+#caboosecontainer {
+    width:956px;
+    margin:10px auto 0px auto;
+    padding:0px;
+}
+
+.cabooseitem {
+    float:left;
+    width:450px;
+    padding:0px;
+    margin:10px 20px 10px 0px; 
+}
+
+
+#sidebar {
+    width:220px;
+    float:right;
+}
+
+#sectionnav {
+    margin:5px 5px 55px 0px;
+    padding:5px 5px 5px 0px;
+    font-family: 'ITC Franklin Gothic Std MD CD', helvetica, arial, sans-serif;
+}
+
+#sectionnav h2 {
+    color:#ed712b;
+    font-size:12px !important;
+    text-transform:uppercase;
+}
+
+#sectionnav ul {
+    list-style:none;
+    margin:0px 0px 0px px;
+    padding:0px;
+}
+
+
+
+
+#sectionav li {
+    list-style:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+
+#sectionnav li a {
+    text-decoration:none;
+    display:block;
+    margin:0px 0px 15px 0px;
+    padding:0px;
+    font-size:18px;
+    line-height:1.1em;
+}
+
+#sectionnav li a.currentpage {
+    color:#999999;
+
+}
+
+footer {
+    background:#3d3d3c;
+    margin:0px 0px 0px 0px;
+    padding:0px;    
+}
+
+
+#footercontent {
+    width:946px;
+    margin:10px auto 0px auto;
+    padding:0px;
+    
+}
+
+.footercolumn {
+    float:left;
+    width:200px;
+    margin:10px 5px 10px 5px;
+    padding:0px 10px 5px 15px;
+    color:#999999;
+    font:10px helvetica, arial, sans-serif;
+    background:url(../img/footer_bar.png) left 10px no-repeat;
+}
+
+.footercolumn:first-child {
+      background:none;
+      padding:0px 10px 5px 0px;
+}
+
+.footercolumn p {
+    line-height:1.2em;
+    margin:0px 0px 10px 0px !important;
+}
+
+footer b, footer strong {
+    color:#F58527;
+    font-weight:bold;
+}
+
+footer h2 {
+    color:#F58527;
+}
+
+footer a, footer a:visited {
+    color:#999999;
+    text-decoration:none;
+}
+
+footer h2 a {
+    color:#f58527 !important;
+}
+
+footer a:hover {
+    color:#f58527;
+}
+
+.footercolumn h2 {
+    margin:0px 0px 5px 0px !important;
+    text-transform:uppercase;
+}
+
+#footercolumncontainer {
+    margin:45px 0px 20px 0px;
+}
+
+#footerseal {
+    position:relative;
+    width:946px;
+    height:100px;
+    background:url(../img/seal.gif) left bottom no-repeat;
+    
+}
+
+
+#syrcopy {
+    position:absolute;
+    right:0px;
+    bottom:10px;
+    text-align:right;
+}
+
+#jquery-lightbox {
+    z-index:501 !important;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*
+    Chrome specific hack for the background pipe position.
+*/
+
+@media not all and (-webkit-min-device-pixel-ratio:0)
+{  
+    header h1,footer h2  {
+        
+
+        background: url(../img/pipe.png) 248px 3px no-repeat;
+        
+    }
+}

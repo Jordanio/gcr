@@ -1,0 +1,124 @@
+ul#nav-topical{
+    
+}
+
+ul#nav-topical li {
+    float: left;
+    border-top:2px solid #ffffff;
+}
+
+ul#nav-topical li:hover  {
+    color:#3f3e3d;
+    border-top:2px solid #ed712b;
+
+}
+
+#nav-topical li:hover .dropdownnav {
+    display:block;
+    left:auto;  
+}
+
+#nav-topical li li {
+    border:none;
+}
+
+#nav-topical li li:hover {
+    border:none;
+}
+
+
+
+ul#nav-topical li.selected a,
+ul#nav-topical li a:hover {
+    text-decoration: none;
+}
+
+ul#nav-topical li a {
+    display: block;
+}
+
+ul#nav-topical li a:hover {
+
+}
+
+
+ul#nav-topical li ul {
+    text-align:center;  
+    position: absolute;
+    text-align:right;
+    display: none;  
+}
+
+ul#nav-topical li li:hover .thirdlevel {
+    display:block;
+}
+
+
+
+ul#nav-topical li ul li {
+    display: block;
+    clear: left;
+}
+
+ul#nav-topical li ul li a:hover, 
+ul#nav-topical li ul li.selected a {
+    background-image:none;
+    
+}
+
+ul#nav-topical li.selected ul li a {
+    background-image:none;
+}
+
+
+
+ul.dropdownnav {
+    display:block;
+    position:relative;
+    margin:0px 0px 0px 0px !important;
+    padding:5px 5px 40px 5px !important;
+    width:195px  !important;
+    z-index:500;
+    height:auto;
+    box-shadow:1px 1px 4px #999;
+    background:#ffffff;
+}
+
+.dropdownnav li {
+    position:relative;
+    margin:0px !important;
+    padding:0px !important;
+     
+}
+
+
+.dropdownnav li:hover {
+       
+}
+
+.dropdownnav li a { 
+    display:block;
+    margin:0px !important;
+    padding:3px 15px 10px 15px !important;
+    height:auto !important; 
+    font:normal 14px 'ITC Franklin Gothic Std MD CD', arial,helvetica, sans-serif !important;
+    width:175px;
+    text-align:left !important;
+        
+}
+
+.dropdownnav li a:hover {    
+    color:#F58527 !important;
+}
+
+ul.thirdlevel {
+    position:absolute;
+    left:180px;
+    top:0px;
+    margin:0px 0px 0px 0px !important;
+    padding:2px !important;
+    width:195px  !important;
+    background:#ffffff  !important;
+    border-left:2px solid #373737;
+    box-shadow: 1px 1px 3px #999;
+}
