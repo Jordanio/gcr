@@ -268,6 +268,11 @@ nav li li a:hover {
     
 }
 
+#pagebanner {
+    overflow: hidden;
+    height: 125px;
+}
+
 .bannertext {
     /* position: absolute; */
 	left: 19px;
@@ -387,7 +392,7 @@ h2, h3 {
 * mpr styles
 */
 /* mini-grid */
-.content-1-3, .content-2-3, .content-1-2 {
+.content-1-3, .content-2-3, .content-1-2, .content-1-4, .content-3-4 {
     display: inline-block;
     zoom: 1;
     letter-spacing: normal;
@@ -408,15 +413,83 @@ h2, h3 {
     width: 63%;
 }
 
+.content-3-4 {
+    width: 74%;
+}
+
+.content-1-4 {
+    width: 24%;
+}
+
 .textbox {
     padding: 1.4em;
 }
 
 /* end mini grid styles */
+
+/* feature boxes */
+.featurebox {
+    clear: both;
+    overflow: hidden;
+    margin: 0px 10px 10px 2px;
+    border: 1px solid #999999;
+    background-color: #EFEFEF;
+    position: relative;
+}
+
+.featurebox img {
+    margin-left: -10px;
+    position: relative;
+    margin-right: 15px;
+    display: block;
+    float: left;
+}
+
+.featurebox h2 {
+    background-color: #333333;
+    margin: 0px 0px 0px 10px;
+}
+
+.featurebox p {
+    line-height: 1.2em;
+    margin-left: 20px;
+}
+
+.featurebox h2 a {
+    display: block;
+    color: #efefef;
+    width: 100%;
+    padding: 0px;
+}
+
+/* end feature boxes */
+
+/* Sidebar Modules */
+.sidebarmodule {
+    margin: 0px 10px 10px 10px;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    height: 375px;
+    position: relative;
+}
+
+.sidebarmodule h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.sidebarmodule h2 a {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    background-color: #e3e3e3;
+}
+
+/* /Sidebar Modules */
 /* tiles */
 #tiles {
+    margin-left: -5px;
     float: left;
-    min-width: 980px;
+    min-width: 960px;
 }
 
 .tile-container {
@@ -428,18 +501,28 @@ h2, h3 {
     margin: 10px;
     border: 1px solid #999999;
     border-radius: 2px;
-    height: 275px;
+    height: 375px;
     background-color: #EFEFEF;
     position: relative;
 }
 
 .tile img {
-    padding: 7px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .tile h2 {
-    margin: 5px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 0px;
     border-bottom: 1px solid #333333;
+}
+
+.tile h2 a {
+    color:#fafafa;
+    padding: 4px;
+    display: block;
+    background-color: #333333;
 }
 
 .tile h3 {
@@ -447,13 +530,24 @@ h2, h3 {
 }
 
 .tilefooter {
+    border-top: 1px solid #999999;
     width: 94%;
-    background-color: black;
     position: absolute;
     bottom: 0px;
     margin-bottom: 0px;
     padding: 7px;
 }
+
+.tilefooter img {
+    width: 24px;
+}
+
+.tile p {
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
 /* end tiles */
 
 
@@ -568,8 +662,8 @@ h2, h3 {
 
 
 #container {
-	width: 950px;
-    margin:15px auto 0px auto;
+	width: 960px;
+    margin:0px auto 0px auto;
     padding:10px 0px 0px 0px;
 }
 
